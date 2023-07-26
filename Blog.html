@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      
+        
+        @media (max-width:750px) {
+            #blog img {
+   
+   height: 297px;
+}
+#blog {
+    padding: 150px 56px 0 56px;
+}
+        
+}
+@media (max-width:450px) {
+            #shop_header {
+    
+    background-size: cover;
+     background-position: right 25%;
+    height: 20vh;
+            }
+            #blog {
+    padding: 150px 20px 0 20px;
+}
+#blog .blog_box .blog_detail {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.blog_box{
+    display: flex;
+    flex-direction: column;
+    
+}
+#blog .blog_box .blog_img {
+    width: 100%;
+    margin-right: 4px;
+}
+
+        }
+
+
+    </style>
+</head>
+<body>
+        <!-- ==========
+    header section 
+    =========== -->
+    <section id="header">
+     <a href="#"><img src="./images/logo.png" alt="logo" width="120px" height="120px" class="logo"></a>
+     <div id="navbar">
+        <ul class="nav ">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a  class="active"  href="Blog.html">Blog</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></li>
+            <i class="fa-solid fa-circle-xmark" id="close"></i>
+           
+        </ul>
+        <div class="hamburger" >
+            <a href="Cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+            <i class="fa-solid fa-bars" id="menuButton"></i>
+            
+        </div>
+     </div>
+    </section>
+    <!-- ==========
+    hero section 
+    =========== -->
+    <section id="shop_header" class="Blog_header">
+     <h2>#Read More</h2>
+      <p>Read All Case Study About Our Product</p>
+     
+
+    </section>
+    <!-- =============
+    blog section 
+    ========== -->
+      <section id="blog">
+        <div class="blog_box">
+            <div class="blog_img">
+                <img src="images/blog/b1 (1).jpg" alt="">
+            </div>
+            <div class="blog_detail">
+                <h4>the cotton-jersey Zip up hoodie</h4>
+                <p style="color: black;">Kickstar men braid godard coloring book. receltte waistocatt selfies yr wold Lorem, ipsum dolor.</p>
+                <a href="#"> Continue Reading</a>
+
+            </div>
+            <h1>13/01</h1>
+        </div>
+        <div class="blog_box">
+            <div class="blog_img">
+                <img src="images/blog/b2.jpg" alt="">
+            </div>
+            <div class="blog_detail">
+                <h4>How to style a quief</h4>
+                <p style="color: black;">Kickstar men braid godard coloring book. receltte waistocatt selfies yr wold Lorem, ipsum dolor.</p>
+                <a href="#"> Continue Reading</a>
+
+            </div>
+            <h1>10/06</h1>
+        </div>
+        <div class="blog_box">
+            <div class="blog_img">
+                <img src="images/blog/b3.jpg" alt="">
+            </div>
+            <div class="blog_detail">
+                <h4>runaway inspired trends </h4>
+                <p style="color: black;">Kickstar men braid godard coloring book. receltte waistocatt selfies yr wold Lorem, ipsum dolor.</p>
+                <a href="#"> Continue Reading</a>
+
+            </div>
+            <h1>23/06</h1>
+        </div>
+        <div class="blog_box">
+            <div class="blog_img">
+                <img src="images/blog/b4.jpg" alt="">
+            </div>
+            <div class="blog_detail">
+                <h4>the cotton-jersey Zip up hoodie</h4>
+                <p style="color: black;">Kickstar men braid godard coloring book. receltte waistocatt selfies yr wold Lorem, ipsum dolor.</p>
+                <a href="#"> Continue Reading</a>
+
+            </div>
+            <h1>13/01</h1>
+        </div>
+        <div class="blog_box">
+            <div class="blog_img">
+                <img src="images/blog/b5.jpg" alt="">
+            </div>
+            <div class="blog_detail">
+                <h4>the cotton-jersey Zip up hoodie</h4>
+                <p style="color: black;">Kickstar men braid godard coloring book. receltte waistocatt selfies yr wold Lorem, ipsum dolor.</p>
+                <a href="#"> Continue Reading</a>
+
+            </div>
+            <h1>16/08</h1>
+        </div>
+      </section>
+   <!-- ==============
+   pegination 
+   ================= -->
+        
+         <section id="pegination" class="section-p1">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+         </section>
+    
+         <section id="NewsLetter" class="section-p1 section-m1">
+            <div class="newsText">
+                <h4>Sign Up For NewsLetters</h4>
+                <p>Get Email Updates About Our Latest Shop And <span>Special Offers</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="your email address">
+                <button class="normal">sign up</button>
+            </div>
+         </section>
+         <!-- ===============
+         footer section  
+         ============== -->
+          <footer class="section-p1">
+            <div class="col">
+                <img src="./images/logo.png" alt="" height="120px" width="120px">
+                <h4>contact us</h4>
+                <p> <strong>Address:</strong> Vpo-hatoondi ,tehsil-mundawar, Alwar(raj.)</p>
+                <p> <strong>Phone:</strong> +916376097645</p>
+                <p> <strong>Hours:</strong> 10:00-18:00 mon-fri</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="Icons">
+                       
+                        <i class="fab fa-twitter icon"></i>
+                        <i class="fab fa-instagram icon"></i>
+                        <i class="fab fa-youtube icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terma & Conditions</a>
+                <a href="#">Contact Us</a>
+               
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+               
+            </div>
+            <div class="col install">
+                <h4>Install App </h4>
+                <p>From App Store Or Google Play</p>
+                <div class="row">
+                    <img src="./images/pay/app.jpg" alt="">
+                    <img src="./images/pay/play.jpg" alt="">
+                </div>
+                <h4>Secured Payment Gateway</h4>
+                <img src="./images/pay/pay.png" alt="">
+            </div>
+          </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

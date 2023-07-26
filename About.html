@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      
+        
+        @media (max-width:750px) {
+  
+
+#About_head {
+  flex-direction: column;
+}
+#About_head img {
+    width: 100%;
+}
+#About_head .About_details {
+    width: 100%;
+    padding-top: 2rem;
+}
+#About_app .video {
+    width: 100%;
+  
+}
+        
+}
+@media (max-width:450px) {
+            #shop_header {
+    
+    background-size: cover;
+     background-position: right 25%;
+    height: 20vh;
+            }
+            #blog {
+    padding: 150px 20px 0 20px;
+}
+#blog .blog_box .blog_detail {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.blog_box{
+    display: flex;
+    flex-direction: column;
+    
+}
+#blog .blog_box .blog_img {
+    width: 100%;
+    margin-right: 4px;
+}
+
+        }
+
+
+    </style>
+</head>
+<body>
+        <!-- ==========
+    header section 
+    =========== -->
+    <section id="header">
+     <a href="#"><img src="images/logo.png" alt="logo" width="120px" height="120px" class="logo"></a>
+     <div id="navbar">
+        <ul class="nav ">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a   href="Blog.html">Blog</a></li>
+            <li><a class="active"  href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></li>
+            <i class="fa-solid fa-circle-xmark" id="close"></i>
+           
+        </ul>
+        <div class="hamburger" >
+            <a href="Cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+            <i class="fa-solid fa-bars" id="menuButton"></i>
+            
+        </div>
+     </div>
+    </section>
+    <!-- ==========
+    hero section 
+    =========== -->
+    <section id="shop_header" class="About_header">
+     <h2>#Know</h2>
+      <p>Read All Case Study About Our Product</p>
+     
+
+    </section>
+    <!-- =============
+    about section
+    ========== -->
+    <section id="About_head" class="section-p1">
+        <img src="images/a6.jpg" alt="">
+        <div class="About_details" >
+            <H2>WhO We Are ?</H2>
+            <p style="color: black;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ullam, tenetur doloribus optio reprehenderit totam perferendis nemo voluptatibus voluptas et quasi blanditiis qui illo dolores magni, alias laborum sapiente in Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, cupiditate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, molestiae?</p>
+            <abbr title="">
+                Create Stunning image with as much or a little control as you like thanks to a choices besis and creative modes
+            </abbr>
+            <marquee style="background-color: #ccc;" scrollamount="5" width="100%" loop="-1" >   Create Stunning image with as much or a little control as you like thanks to a choices besis and creative modes</marquee>
+        </div>
+    </section>
+
+    <!-- =============
+    about app 
+    ============ -->
+    <section id="About_app" class="section-p1">
+        <h1>Download our <a href="#">App</a></h1>
+        <div class="video">
+            <video autoplay muted loop src="./video/1.mp4"></video>
+        </div>
+    </section>
+    <!-- ============
+    feature section 
+    ============== -->
+     
+    <section id="features" >
+        <div class="fe-box section-p1" >
+            <img src="./images/f1.png" alt="">
+           <h6 style="background-color: rgb(188, 242, 242);">Free Shiping</h6>   
+        </div>
+        <div class="fe-box section-p1" >
+            <img src="./images/f2.png" alt="">
+           <h6>Online Order</h6>   
+        </div>
+        <div class="fe-box section-p1" >
+            <img src="./images/f3.png" alt="">
+           <h6 style="background-color: rgb(197, 244, 197);">Save Money</h6>   
+        </div>
+        <div class="fe-box section-p1" >
+            <img src="./images/f4.png" alt="">
+           <h6 style="background-color: rgb(217, 243, 243);">Promotions</h6>   
+        </div>
+        <div class="fe-box section-p1" >
+            <img src="./images/f5.png" alt="">
+           <h6 style="background-color: #9f90f9;">Happy Sell</h6>   
+        </div>
+        <div class="fe-box section-p1" >
+            <img src="./images/f6.png" alt="">
+           <h6>F24/7 Support</h6>   
+        </div>
+    </section>
+<!--   
+        =============
+        news letter
+        ========= -->
+        <section id="NewsLetter" class="section-p1 section-m1">
+            <div class="newsText">
+                <h4>Sign Up For NewsLetters</h4>
+                <p>Get Email Updates About Our Latest Shop And <span>Special Offers</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="your email address">
+                <button class="normal">sign up</button>
+            </div>
+         </section>
+        
+         <!-- ===============
+         footer section  
+         ============== -->
+          <footer class="section-p1">
+            <div class="col">
+                <img src="./images/logo.png" alt="" height="120px" width="120px">
+                <h4>contact us</h4>
+                <p> <strong>Address:</strong> Vpo-hatoondi ,tehsil-mundawar, Alwar(raj.)</p>
+                <p> <strong>Phone:</strong> +916376097645</p>
+                <p> <strong>Hours:</strong> 10:00-18:00 mon-fri</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="Icons">
+                       
+                        <i class="fab fa-twitter icon"></i>
+                        <i class="fab fa-instagram icon"></i>
+                        <i class="fab fa-youtube icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terma & Conditions</a>
+                <a href="#">Contact Us</a>
+               
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+               
+            </div>
+            <div class="col install">
+                <h4>Install App </h4>
+                <p>From App Store Or Google Play</p>
+                <div class="row">
+                    <img src="./images/pay/app.jpg" alt="">
+                    <img src="./images/pay/play.jpg" alt="">
+                </div>
+                <h4>Secured Payment Gateway</h4>
+                <img src="./images/pay/pay.png" alt="">
+            </div>
+          </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
